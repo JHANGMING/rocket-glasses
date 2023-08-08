@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/all.css">
+  <title>Store Location-detail</title>
+</head>
+<body>
+  <header class="header bg-danger mb-12 mb-pad-10 mb-mb-5">
+    <div class="container d-flex-justify-between align-center flex-mb-column align-mb-start pdy-2">
+      <div>
+        <h1 class="pl-mb-1m mb-mb-2"><a href="./index.html" class="logo">Glasses</a>
+        </h1>
+      </div>
+      <nav>
+        <a href="#" class="ham-icon">
+          <span class="ham material-icons text-white font-4xl d-none d-b-pad d-none-mb">
+            menu
+          </span>
+          <span class="close material-icons text-white font-4xl d-none">
+            close
+          </span>
+        </a>
+        <div class="ham-meau d-none d-b-pad">
+          <ul class="d-flex flex-wrap">
+            <li><a href="./index.html" class="font-m line-h-xm text-white">首頁</a></li>
+            <li><a href="./optical.html" class="font-m line-h-xm text-white">系列鏡框</a></li>
+            <li><a href="./location.html" class="font-m line-h-xm text-white">門市據點</a></li>
+            <li><a href="./blog.html" class="font-m line-h-xm text-white">部落格</a></li>
+            <li><a href="./question.html" class="font-m line-h-xm text-white">常見問題</a></li>
+          </ul>
+        </div>
+        <div class="nav-meau d-none-pad d-b-mb">
+          <ul class="d-flex flex-mb-wrap font-mb-1 line-h-mb-xs">
+            <li><a href="./optical.html" class="font-m line-h-xm text-white  mr-8">系列鏡框</a></li>
+            <li><a href="./location.html" class="font-m line-h-xm text-white  mr-8">門市據點</a></li>
+            <li><a href="./blog.html" class="font-m line-h-xm text-white mr-8">部落格</a></li>
+            <li><a href="./question.html" class="font-m line-h-xm text-white  ">常見問題</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section>
+      <div class="container">
+        <h3 class="store-title h3 pl-2 mb-4">門市據點</h3>
+        <form class="d-flex align-center mb-5 mb-mb-3">
+          <label for="location" class="font-l line-h-m font-mb-b line-h-mb-xs nowrap-text mr-2 mr-mb-1">選擇地區</label>
+          <select name="location" class="location-select pdy-m pl-1m">
+            <option value="" selected>台北中山旗艦店</option>
+            <option value="">台北綠園店</option>
+            <option value="">台中清水旗艦店</option>
+            <option value="">高雄中正形象店</option>
+            <option value="">高雄夢時代店</option>
+          </select>
+        </form>
+        <ul class="row mb-10 mb-mb-8">
+          <li class="col-md-12 col-lg-5 store-card mb-pad-3">
+            <div class="row row row-cols-1 row-cols-md-2 row-cols-lg-1">
+              <div class="col">
+                <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/store-1.png?raw=true" alt="store-1"
+                  class="store-photo">
+              </div>
+              <div class="col">
+                <div class="store-content">
+                  <h4 class="store-card-title font-l line-h-m pdx-3 pdy-1">台北中山旗艦店</h4>
+                  <ul class="font-m line-h-xm pdx-3 pdx-3 pdy-2">
+                    <li class="d-flex align-center mb-1">
+                      <span class="material-icons font-s mr-1m">
+                        call
+                      </span>
+                      <p>電話：(02)000-1234</p>
+                    </li>
+                    <li class="d-flex align-center mb-1">
+                      <span class="material-icons font-m mr-1m">
+                        schedule
+                      </span>
+                      <p>營業時間：10:00-21:00</p>
+                    </li>
+                    <li class="d-flex ">
+                      <span class="material-icons font-m line-h-xm mr-1m">
+                        location_on
+                      </span>
+                      <p>地址：台北市中山區南京東路25巷2-1號</p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="col-md-12 col-lg-7">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7228.9223907029655!2d121.53788699999998!3d25.052353!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442abdf92fd981b%3A0x48c5a255332eadd5!2zMTA0OTHlj7DljJfluILkuK3lsbHljYDljZfkuqzmnbHot6_kuInmrrUyNS036Jmf!5e0!3m2!1szh-TW!2stw!4v1691325815542!5m2!1szh-TW!2stw"
+              style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade" class="store-map"></iframe>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+  <footer class="bg-danger">
+    <div class="container pt-6 pb-4 pdy-mb-3 text-white">
+      <div class="footer d-flex-justify-between">
+        <div class="mb-4 mb-mb-3">
+          <ul class="footer-meau d-flex d-none-mb mb-4">
+            <li class="footer-item"><a href="./index.html" class="text-white pdy-1m mr-6">首頁</a></li>
+            <li class="footer-item"><a href="./optical.html" class="text-white pdy-1m mr-6">系列鏡框</a></li>
+            <li class="footer-item"><a href="./location.html" class="text-white pdy-1m mr-6">門市據點</a></li>
+            <li class="footer-item"><a href="./blog.html" class="text-white pdy-1m mr-6">部落格</a></li>
+            <li class="footer-item"><a href="./question.html" class="text-white pdy-1m ">常見問題</a></li>
+          </ul>
+          <ul class="footer-contact">
+            <li class="d-flex align-center mb-1">
+              <span class="material-icons font-2xl font-mb-s mr-2m">
+                call
+              </span>
+              <a class="text-white font-2xl line-h-l font-mb-b line-h-mb-xs" href="tel:+0800-000-000">0800-000-000</a>
+            </li>
+            <li class="d-flex align-center">
+              <span class="material-icons font-2xl font-mb-s mr-2m">
+                mail_outline
+              </span>
+              <a class="text-white font-2xl line-h-l font-mb-b line-h-mb-xs"
+                href="mailto:glasses@business.com">glasses@business.com</a>
+            </li>
+          </ul>
+        </div>
+        <div class="contact-icon d-flex">
+          <a href="https://www.facebook.com/">
+            <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/ic-social-fb.png?raw=true"
+              alt="ic-social-fb" width="48px" class="mr-4 mr-mb-1">
+          </a>
+          <a href="https://www.instagram.com/">
+            <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/ic_social_ig.png?raw=true"
+              alt="ic-social_ig" width="48px" class="mr-4 mr-mb-1">
+          </a>
+          <a href="https://line.me/zh-hant/">
+            <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/ic_social_line.png?raw=true"
+              alt="ic-social_line" width="48px">
+          </a>
+        </div>
+      </div>
+      <div class="copyright d-flex-justify-between flex-mb-column pt-4 pt-mb-2">
+        <p class="mb-mb-1">Copyright © 2020 Glasses.All rights reserved.</p>
+        <ul class="d-flex flex-mb-column ">
+          <li class="mb-mb-1"><a href="#隱私權政策" class="text-white font-xs line-h-s font-mb-b line-h-mb-xs mr-6">隱私權政策</a>
+          </li>
+          <li><a href="#服務條款" class="text-white font-xs line-h-s font-mb-b line-h-mb-xs">服務條款</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+    integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+  <script src="./header.js"></script>
+</body>
+</html>

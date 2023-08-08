@@ -1,0 +1,169 @@
+.d-flex {
+  display: flex;
+}
+
+.d-none {
+  display: none;
+}
+
+@media (max-width: 992px) {
+  .d-none-pad {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .d-none-mb {
+    display: none !important;
+  }
+}
+
+.d-b {
+  display: block;
+}
+
+@media (max-width: 992px) {
+  .d-b-pad {
+    display: block;
+  }
+}
+
+@media (max-width: 767px) {
+  .d-b-mb {
+    display: block;
+  }
+}
+
+.d-inline-block {
+  display: inline-block;
+}
+
+@media (max-width: 992px) {
+  .d-inline-block-pad {
+    display: inline-block;
+  }
+}
+
+@media (max-width: 767px) {
+  .d-inline-block-mb {
+    display: inline-block;
+  }
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.d-flex-justify-center {
+  display: flex;
+  justify-content: center;
+}
+
+.d-flex-justify-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.d-flex-between-center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.align-start {
+  align-items: flex-start;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.align-end {
+  align-items: end;
+}
+
+
+.flex-row-reverse {
+  flex-direction: row-reverse;
+}
+
+.d-flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+@media (max-width: 992px) {
+  .flex-pad-row {
+    flex-direction: row;
+  }
+
+  .flex-pad-wrap {
+    flex-wrap: wrap;
+  }
+  .d-flex-pad-column {
+    display: flex;
+    flex-direction: column;
+  }
+  .flex-pad-column {
+    flex-direction: column;
+  }
+
+  .d-pad-flex {
+    display: flex;
+  }
+
+  .align-pad-center {
+    align-items: center;
+  }
+
+  .justify-pad-center {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 767px) {
+
+  .justify-mb-center {
+    justify-content: center;
+  }
+
+  .justify-mb-between {
+    justify-content: space-between;
+  }
+
+  .flex-mb-column {
+    flex-direction: column;
+  }
+
+  .flex-mb-wrap {
+    flex-wrap: wrap;
+  }
+
+  .flex-mb-row {
+    flex-direction: row;
+  }
+
+  .align-mb-start {
+    align-items: start;
+  }
+}

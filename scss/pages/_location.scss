@@ -1,0 +1,20 @@
+.store-title{
+  border-left: 8px solid $s-red;
+}
+
+.location-select{
+  width: 100%;
+  max-width: 304px;
+  border: 1px solid #CED4DA;
+  color: #495057;
+  opacity: 0.75;
+}
+
+.store-card{
+  .store-content{
+    border: 1px solid #00000020;
+  }
+  &-title{
+    border-bottom: 1px solid #00000020;
+  }
+}

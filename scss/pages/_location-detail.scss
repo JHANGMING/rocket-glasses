@@ -1,0 +1,19 @@
+.store-photo{
+  height: 224px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.store-card {
+  .store-content {
+    margin-top: -1px;
+    @include pad{
+      margin-top: 0;
+    }
+  }
+}
+
+.store-map{
+  height: 414px;
+  width: 100%;
+}

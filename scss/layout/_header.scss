@@ -1,0 +1,78 @@
+/* header */
+.header {
+  position: relative;
+    .container {
+  @include mobile {
+    padding: 12px 0 0 0;
+    }
+  }
+}
+  /* logo */
+.logo{
+  width: 80px;
+  height: 48px;
+  text-indent: 101%;
+  white-space: nowrap;
+  overflow: hidden;
+  background: url("https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/logo-white.png?raw=true");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* nav */
+.nav-meau {
+  @include mobile {
+    position: static;
+    width: 100vw;
+    li {
+      width: 50%;
+      border: 1px solid #FFFFFF;
+      padding: 12px 0;
+      a {
+        margin-right: 0;
+        text-align: center;
+      }
+    }
+  }
+}
+
+/* 漢堡選單  */
+.ham-meau{
+  @include pad {
+      position: absolute;
+      right: 0;
+      top: 100%;
+      max-height: 0px;
+      transition: all 0.5s;
+      overflow: hidden;
+      flex-wrap: wrap;
+      z-index: 10;
+      li {
+        width: 100%;
+      }
+  
+      a {
+        margin-right: 0;
+        background: #AA0601;
+        color: #FFFFFF;
+        border-top: 1px solid #FFFFFF;
+        padding: 16px 0;
+        text-align: center;
+      }
+    }
+}
+
+.ham.display {
+  display: none;
+}
+.close.display {
+  display: inline-block;
+}
+.ham-meau.display {
+  max-height: 500px;
+}
+
+  
+
+

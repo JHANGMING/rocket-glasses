@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Roboto:ital,wght@0,400;0,500;0,900;1,900&display=swap');
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons+Outlined");
+@import "bootstrap/bootstrap";
+@import "utils/variable";
+@import "layout/grid";
+@import "utils/mixin";
+@import "base/normalize";
+@import "base/base";
+@import "utils/spacing";
+@import "utils/text";
+@import "utils/flex";
+@import "layout/header";
+@import "layout/footer";
+@import "layout/pagination";
+@import "pages/index";
+@import "pages/optical";
+@import "pages/sunglasses";
+@import "pages/location";
+@import "pages/location-detail";
+@import "pages/blog";
+@import "pages/special-plan";
+
+

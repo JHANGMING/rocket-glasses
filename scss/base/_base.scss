@@ -1,0 +1,94 @@
+//全站設定
+a {
+  text-decoration: none;
+  display:block;
+  color: #000;
+  border-bottom: 3px solid transparent;
+  transition: all 0.5s;
+  &:hover {
+    opacity: 0.8;
+    border-bottom: 3px solid #333333;
+  }
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  object-fit:cover;
+}
+.active {
+  border-bottom: 8px solid $red;
+}
+.opacity-7{
+  opacity: 0.7;
+}
+
+body {
+  font-family: "Roboto","Noto Sans TC",sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  font-weight: 400;
+  color: #000;
+}
+
+.container {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 12px;
+
+  @include pad{
+    padding: 0 36px;
+  };
+
+  @include mobile{
+    padding: 0 12px;
+  }
+}
+.container-sm{
+  max-width: 646px;
+  margin: 0 auto;
+}
+
+.h3{
+  font-size: 48px;
+  line-height: 72px;
+  font-weight: 700;
+  @include mobile{
+    font-size: 24px;
+    line-height: 36px;
+  }
+}
+.h4{
+  font-size: 32px;
+  line-height: 48px;
+  @include pad {
+      font-size: 24px;
+      line-height: 36px;
+    }
+}
+.h5{
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.classic-title{
+  font-size: 42px;
+  line-height: 63px;
+  font-weight: 500;
+  @include mobile {
+    font-size: 24px;
+    line-height: 36px;
+  }
+}
+
+.classic-subtitle {
+  font-size: 32px;
+  line-height: 48px;
+  @include mobile {
+    font-size: 24px;
+    line-height: 36px;
+  }
+}
+

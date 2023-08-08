@@ -1,0 +1,11 @@
+/* footer */
+.footer {
+  border-bottom: 1px solid #FFFFFF;
+  .contact-icon {
+    img {
+      @include mobile {
+        width: 24px;
+      }
+    }
+  }
+}

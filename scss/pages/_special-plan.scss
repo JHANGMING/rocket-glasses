@@ -1,0 +1,25 @@
+.special-nav .container{
+  @include mobile{
+    margin: 0;
+  }
+}
+
+.special-meau{
+  @include mobile{
+    width: 100%;
+  }
+  li{
+    @include mobile{
+      width: 25%;
+      text-align: center;
+    }
+  }
+}
+
+
+.share-meau{
+  border-bottom: 1px solid #707070;
+}
+
+
+

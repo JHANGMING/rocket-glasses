@@ -1,0 +1,104 @@
+
+/* banner */
+.banner{
+  background: url("https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/home-header.png?raw=true") no-repeat center / cover;
+
+  @include pad{
+    background-image: url("https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week3-4/home-header-sm.png");
+  }
+}
+
+/* about-glass */
+.about-glass{
+  &-meau{
+    align-items: baseline;//基線對齊
+  }
+}
+
+/* classic */
+.classic{
+  &-card{
+    max-width: 416px;
+  }
+}
+
+/* design */
+.design{
+  background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/index-bg.png?raw=true") ;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  @include pad{
+    background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/index-bg-sm.png?raw=true");
+  }
+  &-content{
+    width: 100%;
+    border-right: 1px solid $gray;
+  }
+  &-meau{
+  img {
+      width: 100%;
+      height: 240px;
+    }
+  }
+  
+}
+
+/* recommend */
+.recommend{
+  &-card{
+    border: 1px solid $gray;
+    border-radius: 4px;
+    box-shadow: 0px 2px 6px $lgray;
+    
+    img{
+      width: 100%;
+      height: 306px;
+    }
+  }
+  &-content{
+    min-height: 205px;
+  }
+}
+
+
+/* contact */
+.contact{
+  .name {
+    height: 36px;
+    }
+  .tel ,.email{
+    height: 33px;
+  }
+  
+  .suggestbox{
+    height: 136px;
+    resize: none; //取消可以縮放
+    border: 1px solid #000;
+  }
+  .check{
+    @include mobile {
+        align-items: flex-start;
+      }
+  }
+  .checkbox{
+    width: 24px;
+    height: 24px;
+  }
+
+  .submitBtn{
+    input{
+      max-width: 416px;
+      box-sizing: content-box;
+      padding: 16px 0px;
+      background-color: $red;
+      color: #fff;
+      border: 1px solid $red;
+      cursor: pointer;
+      &:hover{
+        background: $first;
+      }
+    }
+  }
+}
+

@@ -1,0 +1,165 @@
+
+/* font size */
+$base-font-size: 16px;
+$font: (
+  'xs': $base-font-size*0.875, //14
+  'b': $base-font-size * 1, //16
+  's': $base-font-size * 1.125, //18
+  'xm': $base-font-size * 1.1875,  //19
+  'm': $base-font-size * 1.25, //20
+  'l': $base-font-size * 1.5, //24
+  'xl': $base-font-size * 2, //32
+  '2xl': $base-font-size * 2.25, //36
+  // '3xl': $base-font-size * 2.625, //42
+  '4xl': $base-font-size * 3, //48
+  '5xl': $base-font-size * 4, //64
+);
+
+@each $key,$value in $font {
+  .font-#{$key} {
+    font-size: $value;
+  }
+}
+
+
+@media (max-width: 992px) {
+  @each $key,$value in $font {
+      .font-pad-#{$key} {
+        font-size: $value;
+      }
+    }
+}
+
+@media (max-width: 767px) {
+  @each $key,$value in $font {
+      .font-mb-#{$key} {
+        font-size: $value;
+      }
+    }
+}
+
+/* text color */
+// $first: #650300;
+// $dgray: #707070;
+// $gray: #DEE2E6;
+// $lgray: #00000029;
+// $lightpink: #FBF2F2;
+// $dark: #000;
+// $white: #FFFFFF;
+// $red: #AA0601;
+
+// $themes: (
+//   'first': $first,     
+//   'danger': $red,        
+//   'dgray': $dgray,        
+//   'gray': $gray,          
+//   'lgray': $lgray,
+//   'light': $lightpink,     
+//   'dark': $dark,           
+//   'white': $white,         
+// );
+
+// @each $key,$value in $themes {
+//   .bg-#{$key} {
+//     background-color: $value !important;
+//   }
+// }
+
+// @each $key,$value in $themes {
+//   .text-#{$key} {
+//     color: $value !important;
+//   }
+// }
+
+/* font family */
+.font-roboto {
+  font-family: $en-font-family;
+}
+
+// .font-noto {
+//   font-family: $tc-font-family;
+// }
+
+/* text align */
+
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+.nowrap-text {
+  white-space: nowrap;
+}
+.text-transform{
+  text-transform: lowercase;
+}
+
+/* font weight */
+
+
+@each $key in 3,4,5,7,9 {
+  .fw-#{$key} {
+    font-weight: $key*100;
+  }
+}
+
+.fw-0 {
+  font-weight: normal;
+}
+
+.fw-b {
+  font-weight: bolder;
+}
+
+/* text style */
+
+.italic {
+  font-style: italic;
+}
+
+
+// /* line-height */
+
+$line-height: (
+
+  's':21px,
+  'xs':24px,
+  'xms':26px,
+  'xmm':27px,
+  'xm':30px,
+  'm':36px,
+  "ml":48px,
+  'l':54px,
+  'xl': 72px,
+  'xxl': 96px,
+);
+
+@each $key,$value in $line-height {
+  .line-h-#{$key} {
+    line-height: $value;
+  }
+}
+
+@media (max-width: 992px) {
+  @each $key,
+    $value in $line-height {
+      .line-h-pad-#{$key} {
+        line-height: $value;
+      }
+    }
+}
+
+@media (max-width: 767px) {
+  @each $key,
+    $value in $line-height {
+      .line-h-mb-#{$key} {
+        line-height: $value;
+      }
+    }
+}

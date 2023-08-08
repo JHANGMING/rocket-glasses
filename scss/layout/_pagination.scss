@@ -1,0 +1,22 @@
+/* pagination */
+.pagination {
+  li {
+    border: 1px solid $p-gray;
+    a {
+      color: $p-gray;
+      &:hover {
+        color: #fff;
+        background: #000;
+
+      }
+    }
+  }
+  .p-active {
+    a {
+      color: #fff;
+    }
+
+    background: #000;
+  }
+
+}

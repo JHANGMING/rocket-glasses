@@ -14,8 +14,8 @@
         </h1>
       </div>
       <nav>
-        <a href="#" class="ham-icon">
-          <span class="ham material-icons text-white font-4xl d-none d-b-pad d-none-mb">
+        <a href="#" class="ham-icon d-none d-b-pad">
+          <span class="ham material-icons text-white font-4xl d-b-pad d-none-mb">
             menu
           </span>
           <span class="close material-icons text-white font-4xl d-none">
@@ -43,61 +43,59 @@
     </div>
   </header>
   <main>
-    <section>
-      <div class="container">
-        <h3 class="store-title h3 pl-2 mb-4">門市據點</h3>
-        <form class="d-flex align-center mb-5 mb-mb-3">
-          <label for="location" class="font-l line-h-m font-mb-b line-h-mb-xs nowrap-text mr-2 mr-mb-1">選擇地區</label>
-          <select name="location" class="location-select pdy-m pl-1m">
-            <option value="" selected>台北中山旗艦店</option>
-            <option value="">台北綠園店</option>
-            <option value="">台中清水旗艦店</option>
-            <option value="">高雄中正形象店</option>
-            <option value="">高雄夢時代店</option>
-          </select>
-        </form>
-        <ul class="row mb-10 mb-mb-8">
-          <li class="col-md-12 col-lg-5 store-card mb-pad-3">
-            <div class="row row row-cols-1 row-cols-md-2 row-cols-lg-1">
-              <div class="col">
-                <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/store-1.png?raw=true" alt="store-1"
-                  class="store-photo">
-              </div>
-              <div class="col">
-                <div class="store-content">
-                  <h4 class="store-card-title font-l line-h-m pdx-3 pdy-1">台北中山旗艦店</h4>
-                  <ul class="font-m line-h-xm pdx-3 pdx-3 pdy-2">
-                    <li class="d-flex align-center mb-1">
-                      <span class="material-icons font-s mr-1m">
-                        call
-                      </span>
-                      <p>電話：(02)000-1234</p>
-                    </li>
-                    <li class="d-flex align-center mb-1">
-                      <span class="material-icons font-m mr-1m">
-                        schedule
-                      </span>
-                      <p>營業時間：10:00-21:00</p>
-                    </li>
-                    <li class="d-flex ">
-                      <span class="material-icons font-m line-h-xm mr-1m">
-                        location_on
-                      </span>
-                      <p>地址：台北市中山區南京東路25巷2-1號</p>
-                    </li>
-                  </ul>
-                </div>
+    <section class="container">
+      <h3 class="store-title h3 pl-2 mb-4">門市據點</h3>
+      <form class="d-flex align-center mb-5 mb-mb-3">
+        <label for="location" class="font-l line-h-m font-mb-b line-h-mb-xs nowrap-text mr-2 mr-mb-1">選擇地區</label>
+        <select name="location" class="location-select pdy-m pl-1m">
+          <option value="" selected>台北中山旗艦店</option>
+          <option value="">台北綠園店</option>
+          <option value="">台中清水旗艦店</option>
+          <option value="">高雄中正形象店</option>
+          <option value="">高雄夢時代店</option>
+        </select>
+      </form>
+      <ul class="row mb-10 mb-mb-8">
+        <li class="col-md-12 col-lg-5 store-card mb-pad-3">
+          <div class="row row row-cols-1 row-cols-md-2 row-cols-lg-1">
+            <div class="col">
+              <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/store-1.png?raw=true" alt="store-1"
+                class="store-photo">
+            </div>
+            <div class="col">
+              <div class="store-content">
+                <h4 class="store-card-title font-l line-h-m pdx-3 pdy-1">台北中山旗艦店</h4>
+                <ul class="font-m line-h-xm pdx-3 pdx-3 pdy-2">
+                  <li class="d-flex align-center mb-1">
+                    <span class="material-icons font-s mr-1m">
+                      call
+                    </span>
+                    <p>電話：(02)000-1234</p>
+                  </li>
+                  <li class="d-flex align-center mb-1">
+                    <span class="material-icons font-m mr-1m">
+                      schedule
+                    </span>
+                    <p>營業時間：10:00-21:00</p>
+                  </li>
+                  <li class="d-flex ">
+                    <span class="material-icons font-m line-h-xm mr-1m">
+                      location_on
+                    </span>
+                    <p>地址：台北市中山區南京東路25巷2-1號</p>
+                  </li>
+                </ul>
               </div>
             </div>
-          </li>
-          <li class="col-md-12 col-lg-7">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7228.9223907029655!2d121.53788699999998!3d25.052353!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442abdf92fd981b%3A0x48c5a255332eadd5!2zMTA0OTHlj7DljJfluILkuK3lsbHljYDljZfkuqzmnbHot6_kuInmrrUyNS036Jmf!5e0!3m2!1szh-TW!2stw!4v1691325815542!5m2!1szh-TW!2stw"
-              style="border:0;" allowfullscreen="" loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade" class="store-map"></iframe>
-          </li>
-        </ul>
-      </div>
+          </div>
+        </li>
+        <li class="col-md-12 col-lg-7">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7228.9223907029655!2d121.53788699999998!3d25.052353!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442abdf92fd981b%3A0x48c5a255332eadd5!2zMTA0OTHlj7DljJfluILkuK3lsbHljYDljZfkuqzmnbHot6_kuInmrrUyNS036Jmf!5e0!3m2!1szh-TW!2stw!4v1691325815542!5m2!1szh-TW!2stw"
+            style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade" class="store-map"></iframe>
+        </li>
+      </ul>
     </section>
   </main>
   <footer class="bg-danger">

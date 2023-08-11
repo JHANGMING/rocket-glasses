@@ -17258,6 +17258,11 @@ body {
   height: 414px;
   width: 100%;
 }
+@media (max-width: 767px) {
+  .store-map {
+    height: 208px;
+  }
+}
 
 .blog img {
   height: 100%;

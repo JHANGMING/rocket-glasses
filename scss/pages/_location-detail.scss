@@ -16,4 +16,7 @@
 .store-map{
   height: 414px;
   width: 100%;
+  @include mobile{
+    height: 208px;
+  }
 }
